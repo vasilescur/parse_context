@@ -53,6 +53,19 @@ pip3 freeze | grep openai > ./requirements.txt
 
 ## Usage
 
+### Non-interactive mode (default)
+
+To use non-interactive mode, make sure the `INTERACTIVE` flag at the top of `parse_context.py` is set to `False`.
+
+Then, run the program while passing your conversation to standard input (`STDIN`). For example, if the above
+conversation were placed in a file located at `./conversations/tech_stack.txt`, we could run:
+
+```bash
+cat ./conversations/tech_stack.txt | python3 parse_context.py
+```
+
+The result will be printed to `STDOUT` (default is the terminal window).
+
 ### Interactive Mode
 
 To use interactive mode, make sure the `INTERACTIVE` flag at the top of `parse_context.py` is set to `True`.
@@ -66,19 +79,6 @@ B: What app?
 A: The dating app we are developing. It needs to be cross-platform mobile.
 B: Oh, okay. Um... I don't really know any good frameworks
 /end
-```
-
-The result will be printed to `STDOUT` (default is the terminal window).
-
-### Non-interactive mode
-
-To use non-interactive mode, make sure the `INTERACTIVE` flag at the top of `parse_context.py` is set to `False`.
-
-Then, run the program while passing your conversation to standard input (`STDIN`). For example, if the above
-conversation were placed in a file located at `./conversations/tech_stack.txt`, we could run:
-
-```bash
-cat ./conversations/tech_stack.txt | python3 parse_context.py
 ```
 
 And the result will be printed to `STDOUT`.
