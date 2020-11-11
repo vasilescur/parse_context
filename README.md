@@ -119,7 +119,7 @@ Useful Output: List of restaurants nearby, restaurant reviews, restaurant menus
 Relevant Data Sources: Query Foursquare API for restaurants, query Yelp API for reviews, query OpenTable API for restaurant menus
 ```
 
-### Developing an App
+#### Developing an App
 ```
 A: Hey, what tech stack do you think we should use for the new app?
 B: What app?
@@ -133,7 +133,7 @@ A: The dating app we are developing. It needs to be cross-platform mobile.
 B: Oh, okay. Um... I don't really know any good frameworks
 ```
 
-### Cooking a Meal
+#### Cooking a Meal
 ```
 A: Hey, what do you think we should cook for dinner tonight?
 B: Dunno. Let's check the fridge.
