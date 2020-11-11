@@ -83,13 +83,77 @@ cat ./conversations/tech_stack.txt | python3 parse_context.py
 
 And the result will be printed to `STDOUT`.
 
-### License
+## Examples of AI Output
+
+For each example, the format is:
+
+```
+input
+```
+
+```
+AI output
+```
+
+#### Talking about an actor
+```
+A: I watched Terminator last night.
+B: Oh, cool! I love that movie, it's a classic.
+A: Arnold Schwarzenegger was so good.
+B: Yeah, I agree.
+```
+```
+Context: A group of people are talking about a film
+Useful Output: Information about Arnold Schwarzenegger filmography
+Relevant Data Sources: Query Google Search for "Arnold Schwarzenegger filmography"
+```
+
+#### Going to Dinner
+```
+A: Hey Mike, let's get dinner tonight.
+B: Okay, sure! What restaurants do you know in the area?
+```
+```
+Context: Two friends are trying to decide what to eat for dinner
+Useful Output: List of restaurants nearby, restaurant reviews, restaurant menus
+Relevant Data Sources: Query Foursquare API for restaurants, query Yelp API for reviews, query OpenTable API for restaurant menus
+```
+
+### Developing an App
+```
+A: Hey, what tech stack do you think we should use for the new app?
+B: What app?
+A: The dating app we are developing. It needs to be cross-platform mobile.
+B: Oh, okay. Um... I don't really know any good frameworks
+```
+```
+A: Hey, what tech stack do you think we should use for the new app?
+B: What app?
+A: The dating app we are developing. It needs to be cross-platform mobile.
+B: Oh, okay. Um... I don't really know any good frameworks
+```
+
+### Cooking a Meal
+```
+A: Hey, what do you think we should cook for dinner tonight?
+B: Dunno. Let's check the fridge.
+A: Okay. Looks like we've got chicken, beef, lettuce, rice, mustard, mayo, taco shells, and corn.
+B: How about tacos?
+```
+```
+Context: Two people are talking about dinner
+Useful Output: Ingredients, recipe, estimated cooking time
+Relevant Data Sources: Query Google Search for "recipes with chicken, beef, lettuce, rice, mustard, mayo, taco shells, and corn", query Google Maps API for local grocery stores
+```
+
+## License
 
 This is released under the MIT License.
 
-### Legal
+## Legal
 
 Please refer to the OpenAI website for information regarding the legal and copyright status of content produced by GPT-3.
 By using this software, you agree that as the repository author, Radu Vasilescu, I am not responsible for any content
 produced by this software, including completions and model output. All content/media produced with this software must
 be attributed to the person or company who produced the output-- not me, and not OpenAI.
+I hereby release the content of this document as well as the examples included herein to the public domain.
