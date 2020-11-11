@@ -127,10 +127,9 @@ A: The dating app we are developing. It needs to be cross-platform mobile.
 B: Oh, okay. Um... I don't really know any good frameworks
 ```
 ```
-A: Hey, what tech stack do you think we should use for the new app?
-B: What app?
-A: The dating app we are developing. It needs to be cross-platform mobile.
-B: Oh, okay. Um... I don't really know any good frameworks
+Context: Two people are discussing the development of a new cross-platform mobile application
+Useful Output: List of popular frameworks
+Relevant Data Sources: Query Stack Overflow website for most popular frameworks.
 ```
 
 #### Cooking a Meal
