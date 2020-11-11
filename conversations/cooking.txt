@@ -1,0 +1,4 @@
+A: Hey, what do you think we should cook for dinner tonight?
+B: Dunno. Let's check the fridge.
+A: Okay. Looks like we've got chicken, beef, lettuce, rice, mustard, mayo, taco shells, and corn.
+B: How about tacos?
