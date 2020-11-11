@@ -13,8 +13,25 @@ for achieving those outputs.
 
 - Python 3
 - OpenAI Python Client
+- OpenAI API key (currently in private beta)
 
 ### Installation
+
+#### API Key Setup
+
+First, set up your API key:
+
+```bash
+export OPENAI_API_KEY='sk-<your key here>'
+```
+
+To make it persistent,
+
+```bash
+echo "export OPENAI_API_KEY='sk-<your key here>'" >> ~/.bashrc && source ~/.bashrc
+```
+
+#### Python and Packages Setup
 
 Install Python. Install Pip for Python3. Then run:
 
@@ -65,3 +82,14 @@ cat ./conversations/tech_stack.txt | python3 parse_context.py
 ```
 
 And the result will be printed to `STDOUT`.
+
+### License
+
+This is released under the MIT License.
+
+### Legal
+
+Please refer to the OpenAI website for information regarding the legal and copyright status of content produced by GPT-3.
+By using this software, you agree that as the repository author, Radu Vasilescu, I am not responsible for any content
+produced by this software, including completions and model output. All content/media produced with this software must
+be attributed to the person or company who produced the output-- not me, and not OpenAI.
