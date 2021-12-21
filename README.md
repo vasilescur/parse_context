@@ -13,7 +13,7 @@ for achieving those outputs.
 
 - Python 3
 - OpenAI Python Client
-- OpenAI API key (currently in private beta)
+- OpenAI API key
 
 ### Installation
 
